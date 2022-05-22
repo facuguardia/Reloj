@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Reloj</title>
+</head>   
+<body>
+    <div class="container">
+        <div class="reloj">
+            <input type="text" class="numero" maxlength="2" value="00"><span>hs</span>
+            <input type="text" class="numero" maxlength="2" value="00"><span>min</span>
+            <input type="text" class="numero" maxlength="2" value="00"><span>seg</span>
+        </div>
+        <div class="boton">
+            <button id="play" onclick="inicioReloj()"></button>
+            <button id="stop" onclick="finReloj()"></button>
+        </div>
+    </div>
+    <script src="js/codigo.js"></script>
+</body>
+</html>
